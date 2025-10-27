@@ -1,0 +1,14 @@
+[project]
+name = "dataprocessingexamples"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "cartopy>=0.25.0",
+    "earthaccess>=0.15.1",
+    "matplotlib>=3.10.7",
+    "numpy>=2.3.4",
+    "scikit-learn>=1.7.2",
+    "xarray[io]>=2025.10.1",
+]
