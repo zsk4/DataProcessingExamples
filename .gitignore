@@ -1,5 +1,7 @@
 # Data
-_Data
+SWOT/_Data/
+GNSS/_Data/
+ICESat-2/_Data/
 
 # Virtual environments
 .venv
