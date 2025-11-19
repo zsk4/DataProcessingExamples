@@ -6,10 +6,11 @@ Python environment included using uv as pyproject.toml and uv.lock.
 ---
 
 ## SWOT
+**Notebook** `SWOT_LR_Height.ipynb`  
+Local download and plotting of LR Sea Surface Height data over the Canadian Arctic Archipelago.
 
 **Notebook** `SWOT_PIXC_AmbiguityCorrection.ipynb`  
 Manual ambiguity correction of SWOT HR PIXC data using a Gaussian Mixture Model. Based on [this](https://podaac.github.io/tutorials/notebooks/datasets/SWOT_PIXC_PhaseUnwrap_localmachine.html) tutorial.
-
 
 **Notebook** `SWOT_Backscatter.ipynb`  
 Backscatter detection of surface water on Amery Ice Shelf and comparison to Sentinel-2, despite cloudy weather.
