@@ -19,6 +19,8 @@ Backscatter detection of surface water on Amery Ice Shelf and comparison to Sent
 Local download and plotting of HR data over Amery Ice Shelf for one cycle of SWOT.
 
 ## ICESat-2
+**Notebook** `EarthaccessEx.ipynb`  
+Downloading and plotting ICESat-2 data on David Glacier using earthaccess.
 
 **Notebook** `IcepyxEx.ipynb`  
 Downloading and plotting ICESat-2 data using icepyx
