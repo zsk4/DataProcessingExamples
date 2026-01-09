@@ -1,7 +1,7 @@
 # Data
 SWOT/_Data/
 ICESat-2/_Data/
-
+Seismic/_Data/
 # Virtual environments
 .venv
 
