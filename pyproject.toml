@@ -21,3 +21,8 @@ dependencies = [
     "timescale>=0.1.0",
     "xarray[complete,io]>=2025.10.1",
 ]
+
+[tool.uv.workspace]
+members = [
+    "WhillansSeismic",
+]
