@@ -32,3 +32,14 @@ Downloading and plotting ICESat-2 data using sliderule
 
 **Notebook** `GNSS_WhillansEvent_Kriging.ipynb`  
 Using RMagic and the [Fields](10.32614/CRAN.package.fields) package to Krig velocity during a Whillans Ice Plain stick slip event.
+
+## Seismic
+
+**Notebook** `Obspy_IRIS_Download.ipynb`  
+Use Obspy's FDSN massdownloader to download and make a dayplot of Whillans local station XS 1001.
+
+## WhillansSeismic
+
+**Notebook** `WhillansSeismic_Ex.ipynb`  
+Use Obspy's FDSN module to get and calculate the envelope of a Whillans Stick Slip event recorded on VNDA.
+
