@@ -1,0 +1,698 @@
+/                        Group
+/METADATA                Group
+/METADATA/AcquisitionInformation Group
+/METADATA/AcquisitionInformation/lidar Group
+/METADATA/AcquisitionInformation/lidarDocument Group
+/METADATA/AcquisitionInformation/platform Group
+/METADATA/AcquisitionInformation/platformDocument Group
+/METADATA/DataQuality    Group
+/METADATA/DataQuality/CompletenessOmission Group
+/METADATA/DataQuality/DomainConsistency Group
+/METADATA/DatasetIdentification Group
+/METADATA/Extent         Group
+/METADATA/Lineage        Group
+/METADATA/Lineage/ANC06-01 Group
+/METADATA/Lineage/ANC06-02 Group
+/METADATA/Lineage/ANC06-03 Group
+/METADATA/Lineage/ANC17  Group
+/METADATA/Lineage/ANC19  Group
+/METADATA/Lineage/ANC25-06 Group
+/METADATA/Lineage/ANC26-06 Group
+/METADATA/Lineage/ANC28  Group
+/METADATA/Lineage/ANC36-06 Group
+/METADATA/Lineage/ANC38-06 Group
+/METADATA/Lineage/ATL03  Group
+/METADATA/Lineage/ATL09  Group
+/METADATA/Lineage/Control Group
+/METADATA/ProcessStep    Group
+/METADATA/ProcessStep/Browse Group
+/METADATA/ProcessStep/Metadata Group
+/METADATA/ProcessStep/PGE Group
+/METADATA/ProcessStep/QA Group
+/METADATA/ProductSpecificationDocument Group
+/METADATA/QADatasetIdentification Group
+/METADATA/SeriesIdentification Group
+/ancillary_data          Group
+/ancillary_data/atlas_sdp_gps_epoch Dataset {1}
+/ancillary_data/control  Dataset {1}
+/ancillary_data/data_end_utc Dataset {1}
+/ancillary_data/data_start_utc Dataset {1}
+/ancillary_data/end_cycle Dataset {1}
+/ancillary_data/end_delta_time Dataset {1}
+/ancillary_data/end_geoseg Dataset {1}
+/ancillary_data/end_gpssow Dataset {1}
+/ancillary_data/end_gpsweek Dataset {1}
+/ancillary_data/end_orbit Dataset {1}
+/ancillary_data/end_region Dataset {1}
+/ancillary_data/end_rgt  Dataset {1}
+/ancillary_data/granule_end_utc Dataset {1}
+/ancillary_data/granule_start_utc Dataset {1}
+/ancillary_data/land_ice Group
+/ancillary_data/land_ice/dt_hist Dataset {1}
+/ancillary_data/land_ice/fit_maxiter Dataset {1}
+/ancillary_data/land_ice/fpb_maxiter Dataset {1}
+/ancillary_data/land_ice/max_res_ids Dataset {1}
+/ancillary_data/land_ice/min_dist Dataset {1}
+/ancillary_data/land_ice/min_gain_th Dataset {1}
+/ancillary_data/land_ice/min_n_pe Dataset {1}
+/ancillary_data/land_ice/min_n_sel Dataset {1}
+/ancillary_data/land_ice/min_signal_conf Dataset {1}
+/ancillary_data/land_ice/n_hist Dataset {1}
+/ancillary_data/land_ice/n_sigmas Dataset {1}
+/ancillary_data/land_ice/nhist_bins Dataset {1}
+/ancillary_data/land_ice/proc_interval Dataset {1}
+/ancillary_data/land_ice/qs_lim_bsc Dataset {1}
+/ancillary_data/land_ice/qs_lim_hrs Dataset {1}
+/ancillary_data/land_ice/qs_lim_hsigma Dataset {1}
+/ancillary_data/land_ice/qs_lim_msw Dataset {1}
+/ancillary_data/land_ice/qs_lim_snr Dataset {1}
+/ancillary_data/land_ice/qs_lim_sss Dataset {1}
+/ancillary_data/land_ice/rbin_width Dataset {1}
+/ancillary_data/land_ice/sigma_beam Dataset {1}
+/ancillary_data/land_ice/sigma_tx Dataset {6}
+/ancillary_data/land_ice/t_dead Dataset {6}
+/ancillary_data/land_ice/txp_maxiter Dataset {1}
+/ancillary_data/qa_at_interval Dataset {1}
+/ancillary_data/release  Dataset {1}
+/ancillary_data/start_cycle Dataset {1}
+/ancillary_data/start_delta_time Dataset {1}
+/ancillary_data/start_geoseg Dataset {1}
+/ancillary_data/start_gpssow Dataset {1}
+/ancillary_data/start_gpsweek Dataset {1}
+/ancillary_data/start_orbit Dataset {1}
+/ancillary_data/start_region Dataset {1}
+/ancillary_data/start_rgt Dataset {1}
+/ancillary_data/version  Dataset {1}
+/gt1l                    Group
+/gt1l/land_ice_segments  Group
+/gt1l/land_ice_segments/atl06_quality_summary Dataset {193/Inf}
+/gt1l/land_ice_segments/bias_correction Group
+/gt1l/land_ice_segments/bias_correction/fpb_mean_corr Dataset {193/Inf}
+/gt1l/land_ice_segments/bias_correction/fpb_mean_corr_sigma Dataset {193/Inf}
+/gt1l/land_ice_segments/bias_correction/fpb_med_corr Dataset {193/Inf}
+/gt1l/land_ice_segments/bias_correction/fpb_med_corr_sigma Dataset {193/Inf}
+/gt1l/land_ice_segments/bias_correction/fpb_n_corr Dataset {193/Inf}
+/gt1l/land_ice_segments/bias_correction/med_r_fit Dataset {193/Inf}
+/gt1l/land_ice_segments/bias_correction/tx_mean_corr Dataset {193/Inf}
+/gt1l/land_ice_segments/bias_correction/tx_med_corr Dataset {193/Inf}
+/gt1l/land_ice_segments/delta_time Dataset {193/Inf}
+/gt1l/land_ice_segments/dem Group
+/gt1l/land_ice_segments/dem/dem_flag Dataset {193/Inf}
+/gt1l/land_ice_segments/dem/dem_h Dataset {193/Inf}
+/gt1l/land_ice_segments/dem/geoid_free2mean Dataset {193/Inf}
+/gt1l/land_ice_segments/dem/geoid_h Dataset {193/Inf}
+/gt1l/land_ice_segments/fit_statistics Group
+/gt1l/land_ice_segments/fit_statistics/dh_fit_dx Dataset {193/Inf}
+/gt1l/land_ice_segments/fit_statistics/dh_fit_dx_sigma Dataset {193/Inf}
+/gt1l/land_ice_segments/fit_statistics/dh_fit_dy Dataset {193/Inf}
+/gt1l/land_ice_segments/fit_statistics/h_expected_rms Dataset {193/Inf}
+/gt1l/land_ice_segments/fit_statistics/h_mean Dataset {193/Inf}
+/gt1l/land_ice_segments/fit_statistics/h_rms_misfit Dataset {193/Inf}
+/gt1l/land_ice_segments/fit_statistics/h_robust_sprd Dataset {193/Inf}
+/gt1l/land_ice_segments/fit_statistics/n_fit_photons Dataset {193/Inf}
+/gt1l/land_ice_segments/fit_statistics/n_seg_pulses Dataset {193/Inf}
+/gt1l/land_ice_segments/fit_statistics/sigma_h_mean Dataset {193/Inf}
+/gt1l/land_ice_segments/fit_statistics/signal_selection_source Dataset {193/Inf}
+/gt1l/land_ice_segments/fit_statistics/signal_selection_source_status Dataset {193/Inf}
+/gt1l/land_ice_segments/fit_statistics/snr Dataset {193/Inf}
+/gt1l/land_ice_segments/fit_statistics/snr_significance Dataset {193/Inf}
+/gt1l/land_ice_segments/fit_statistics/w_surface_window_final Dataset {193/Inf}
+/gt1l/land_ice_segments/geophysical Group
+/gt1l/land_ice_segments/geophysical/bckgrd Dataset {193/Inf}
+/gt1l/land_ice_segments/geophysical/bsnow_conf Dataset {193/Inf}
+/gt1l/land_ice_segments/geophysical/bsnow_h Dataset {193/Inf}
+/gt1l/land_ice_segments/geophysical/bsnow_od Dataset {193/Inf}
+/gt1l/land_ice_segments/geophysical/cloud_flg_asr Dataset {193/Inf}
+/gt1l/land_ice_segments/geophysical/cloud_flg_atm Dataset {193/Inf}
+/gt1l/land_ice_segments/geophysical/dac Dataset {193/Inf}
+/gt1l/land_ice_segments/geophysical/e_bckgrd Dataset {193/Inf}
+/gt1l/land_ice_segments/geophysical/layer_flag Dataset {193/Inf}
+/gt1l/land_ice_segments/geophysical/msw_flag Dataset {193/Inf}
+/gt1l/land_ice_segments/geophysical/neutat_delay_total Dataset {193/Inf}
+/gt1l/land_ice_segments/geophysical/r_eff Dataset {193/Inf}
+/gt1l/land_ice_segments/geophysical/solar_azimuth Dataset {193/Inf}
+/gt1l/land_ice_segments/geophysical/solar_elevation Dataset {193/Inf}
+/gt1l/land_ice_segments/geophysical/tide_earth Dataset {193/Inf}
+/gt1l/land_ice_segments/geophysical/tide_earth_free2mean Dataset {193/Inf}
+/gt1l/land_ice_segments/geophysical/tide_equilibrium Dataset {193/Inf}
+/gt1l/land_ice_segments/geophysical/tide_load Dataset {193/Inf}
+/gt1l/land_ice_segments/geophysical/tide_ocean Dataset {193/Inf}
+/gt1l/land_ice_segments/geophysical/tide_pole Dataset {193/Inf}
+/gt1l/land_ice_segments/ground_track Group
+/gt1l/land_ice_segments/ground_track/ref_azimuth Dataset {193/Inf}
+/gt1l/land_ice_segments/ground_track/ref_coelv Dataset {193/Inf}
+/gt1l/land_ice_segments/ground_track/seg_azimuth Dataset {193/Inf}
+/gt1l/land_ice_segments/ground_track/sigma_geo_at Dataset {193/Inf}
+/gt1l/land_ice_segments/ground_track/sigma_geo_r Dataset {193/Inf}
+/gt1l/land_ice_segments/ground_track/sigma_geo_xt Dataset {193/Inf}
+/gt1l/land_ice_segments/ground_track/x_atc Dataset {193/Inf}
+/gt1l/land_ice_segments/ground_track/y_atc Dataset {193/Inf}
+/gt1l/land_ice_segments/h_li Dataset {193/Inf}
+/gt1l/land_ice_segments/h_li_sigma Dataset {193/Inf}
+/gt1l/land_ice_segments/latitude Dataset {193/Inf}
+/gt1l/land_ice_segments/longitude Dataset {193/Inf}
+/gt1l/land_ice_segments/segment_id Dataset {193/Inf}
+/gt1l/land_ice_segments/sigma_geo_h Dataset {193/Inf}
+/gt1l/residual_histogram Group
+/gt1l/residual_histogram/bckgrd_per_m Dataset {19/Inf}
+/gt1l/residual_histogram/bin_top_h Dataset {748}
+/gt1l/residual_histogram/count Dataset {19/Inf, 748}
+/gt1l/residual_histogram/delta_time Dataset {19/Inf}
+/gt1l/residual_histogram/ds_segment_id Dataset {10}
+/gt1l/residual_histogram/lat_mean Dataset {19/Inf}
+/gt1l/residual_histogram/lon_mean Dataset {19/Inf}
+/gt1l/residual_histogram/pulse_count Dataset {19/Inf}
+/gt1l/residual_histogram/segment_id_list Dataset {19/Inf, 10}
+/gt1l/residual_histogram/x_atc_mean Dataset {19/Inf}
+/gt1l/segment_quality    Group
+/gt1l/segment_quality/delta_time Dataset {193/Inf}
+/gt1l/segment_quality/record_number Dataset {193/Inf}
+/gt1l/segment_quality/reference_pt_lat Dataset {193/Inf}
+/gt1l/segment_quality/reference_pt_lon Dataset {193/Inf}
+/gt1l/segment_quality/segment_id Dataset {193/Inf}
+/gt1l/segment_quality/signal_selection_source Dataset {193/Inf}
+/gt1l/segment_quality/signal_selection_status Group
+/gt1l/segment_quality/signal_selection_status/signal_selection_status_all Dataset {193/Inf}
+/gt1l/segment_quality/signal_selection_status/signal_selection_status_backup Dataset {193/Inf}
+/gt1l/segment_quality/signal_selection_status/signal_selection_status_confident Dataset {193/Inf}
+/gt1r                    Group
+/gt1r/land_ice_segments  Group
+/gt1r/land_ice_segments/atl06_quality_summary Dataset {216/Inf}
+/gt1r/land_ice_segments/bias_correction Group
+/gt1r/land_ice_segments/bias_correction/fpb_mean_corr Dataset {216/Inf}
+/gt1r/land_ice_segments/bias_correction/fpb_mean_corr_sigma Dataset {216/Inf}
+/gt1r/land_ice_segments/bias_correction/fpb_med_corr Dataset {216/Inf}
+/gt1r/land_ice_segments/bias_correction/fpb_med_corr_sigma Dataset {216/Inf}
+/gt1r/land_ice_segments/bias_correction/fpb_n_corr Dataset {216/Inf}
+/gt1r/land_ice_segments/bias_correction/med_r_fit Dataset {216/Inf}
+/gt1r/land_ice_segments/bias_correction/tx_mean_corr Dataset {216/Inf}
+/gt1r/land_ice_segments/bias_correction/tx_med_corr Dataset {216/Inf}
+/gt1r/land_ice_segments/delta_time Dataset {216/Inf}
+/gt1r/land_ice_segments/dem Group
+/gt1r/land_ice_segments/dem/dem_flag Dataset {216/Inf}
+/gt1r/land_ice_segments/dem/dem_h Dataset {216/Inf}
+/gt1r/land_ice_segments/dem/geoid_free2mean Dataset {216/Inf}
+/gt1r/land_ice_segments/dem/geoid_h Dataset {216/Inf}
+/gt1r/land_ice_segments/fit_statistics Group
+/gt1r/land_ice_segments/fit_statistics/dh_fit_dx Dataset {216/Inf}
+/gt1r/land_ice_segments/fit_statistics/dh_fit_dx_sigma Dataset {216/Inf}
+/gt1r/land_ice_segments/fit_statistics/dh_fit_dy Dataset {216/Inf}
+/gt1r/land_ice_segments/fit_statistics/h_expected_rms Dataset {216/Inf}
+/gt1r/land_ice_segments/fit_statistics/h_mean Dataset {216/Inf}
+/gt1r/land_ice_segments/fit_statistics/h_rms_misfit Dataset {216/Inf}
+/gt1r/land_ice_segments/fit_statistics/h_robust_sprd Dataset {216/Inf}
+/gt1r/land_ice_segments/fit_statistics/n_fit_photons Dataset {216/Inf}
+/gt1r/land_ice_segments/fit_statistics/n_seg_pulses Dataset {216/Inf}
+/gt1r/land_ice_segments/fit_statistics/sigma_h_mean Dataset {216/Inf}
+/gt1r/land_ice_segments/fit_statistics/signal_selection_source Dataset {216/Inf}
+/gt1r/land_ice_segments/fit_statistics/signal_selection_source_status Dataset {216/Inf}
+/gt1r/land_ice_segments/fit_statistics/snr Dataset {216/Inf}
+/gt1r/land_ice_segments/fit_statistics/snr_significance Dataset {216/Inf}
+/gt1r/land_ice_segments/fit_statistics/w_surface_window_final Dataset {216/Inf}
+/gt1r/land_ice_segments/geophysical Group
+/gt1r/land_ice_segments/geophysical/bckgrd Dataset {216/Inf}
+/gt1r/land_ice_segments/geophysical/bsnow_conf Dataset {216/Inf}
+/gt1r/land_ice_segments/geophysical/bsnow_h Dataset {216/Inf}
+/gt1r/land_ice_segments/geophysical/bsnow_od Dataset {216/Inf}
+/gt1r/land_ice_segments/geophysical/cloud_flg_asr Dataset {216/Inf}
+/gt1r/land_ice_segments/geophysical/cloud_flg_atm Dataset {216/Inf}
+/gt1r/land_ice_segments/geophysical/dac Dataset {216/Inf}
+/gt1r/land_ice_segments/geophysical/e_bckgrd Dataset {216/Inf}
+/gt1r/land_ice_segments/geophysical/layer_flag Dataset {216/Inf}
+/gt1r/land_ice_segments/geophysical/msw_flag Dataset {216/Inf}
+/gt1r/land_ice_segments/geophysical/neutat_delay_total Dataset {216/Inf}
+/gt1r/land_ice_segments/geophysical/r_eff Dataset {216/Inf}
+/gt1r/land_ice_segments/geophysical/solar_azimuth Dataset {216/Inf}
+/gt1r/land_ice_segments/geophysical/solar_elevation Dataset {216/Inf}
+/gt1r/land_ice_segments/geophysical/tide_earth Dataset {216/Inf}
+/gt1r/land_ice_segments/geophysical/tide_earth_free2mean Dataset {216/Inf}
+/gt1r/land_ice_segments/geophysical/tide_equilibrium Dataset {216/Inf}
+/gt1r/land_ice_segments/geophysical/tide_load Dataset {216/Inf}
+/gt1r/land_ice_segments/geophysical/tide_ocean Dataset {216/Inf}
+/gt1r/land_ice_segments/geophysical/tide_pole Dataset {216/Inf}
+/gt1r/land_ice_segments/ground_track Group
+/gt1r/land_ice_segments/ground_track/ref_azimuth Dataset {216/Inf}
+/gt1r/land_ice_segments/ground_track/ref_coelv Dataset {216/Inf}
+/gt1r/land_ice_segments/ground_track/seg_azimuth Dataset {216/Inf}
+/gt1r/land_ice_segments/ground_track/sigma_geo_at Dataset {216/Inf}
+/gt1r/land_ice_segments/ground_track/sigma_geo_r Dataset {216/Inf}
+/gt1r/land_ice_segments/ground_track/sigma_geo_xt Dataset {216/Inf}
+/gt1r/land_ice_segments/ground_track/x_atc Dataset {216/Inf}
+/gt1r/land_ice_segments/ground_track/y_atc Dataset {216/Inf}
+/gt1r/land_ice_segments/h_li Dataset {216/Inf}
+/gt1r/land_ice_segments/h_li_sigma Dataset {216/Inf}
+/gt1r/land_ice_segments/latitude Dataset {216/Inf}
+/gt1r/land_ice_segments/longitude Dataset {216/Inf}
+/gt1r/land_ice_segments/segment_id Dataset {216/Inf}
+/gt1r/land_ice_segments/sigma_geo_h Dataset {216/Inf}
+/gt1r/residual_histogram Group
+/gt1r/residual_histogram/bckgrd_per_m Dataset {22/Inf}
+/gt1r/residual_histogram/bin_top_h Dataset {748}
+/gt1r/residual_histogram/count Dataset {22/Inf, 748}
+/gt1r/residual_histogram/delta_time Dataset {22/Inf}
+/gt1r/residual_histogram/ds_segment_id Dataset {10}
+/gt1r/residual_histogram/lat_mean Dataset {22/Inf}
+/gt1r/residual_histogram/lon_mean Dataset {22/Inf}
+/gt1r/residual_histogram/pulse_count Dataset {22/Inf}
+/gt1r/residual_histogram/segment_id_list Dataset {22/Inf, 10}
+/gt1r/residual_histogram/x_atc_mean Dataset {22/Inf}
+/gt1r/segment_quality    Group
+/gt1r/segment_quality/delta_time Dataset {216/Inf}
+/gt1r/segment_quality/record_number Dataset {216/Inf}
+/gt1r/segment_quality/reference_pt_lat Dataset {216/Inf}
+/gt1r/segment_quality/reference_pt_lon Dataset {216/Inf}
+/gt1r/segment_quality/segment_id Dataset {216/Inf}
+/gt1r/segment_quality/signal_selection_source Dataset {216/Inf}
+/gt1r/segment_quality/signal_selection_status Group
+/gt1r/segment_quality/signal_selection_status/signal_selection_status_all Dataset {216/Inf}
+/gt1r/segment_quality/signal_selection_status/signal_selection_status_backup Dataset {216/Inf}
+/gt1r/segment_quality/signal_selection_status/signal_selection_status_confident Dataset {216/Inf}
+/gt2l                    Group
+/gt2l/land_ice_segments  Group
+/gt2l/land_ice_segments/atl06_quality_summary Dataset {1061/Inf}
+/gt2l/land_ice_segments/bias_correction Group
+/gt2l/land_ice_segments/bias_correction/fpb_mean_corr Dataset {1061/Inf}
+/gt2l/land_ice_segments/bias_correction/fpb_mean_corr_sigma Dataset {1061/Inf}
+/gt2l/land_ice_segments/bias_correction/fpb_med_corr Dataset {1061/Inf}
+/gt2l/land_ice_segments/bias_correction/fpb_med_corr_sigma Dataset {1061/Inf}
+/gt2l/land_ice_segments/bias_correction/fpb_n_corr Dataset {1061/Inf}
+/gt2l/land_ice_segments/bias_correction/med_r_fit Dataset {1061/Inf}
+/gt2l/land_ice_segments/bias_correction/tx_mean_corr Dataset {1061/Inf}
+/gt2l/land_ice_segments/bias_correction/tx_med_corr Dataset {1061/Inf}
+/gt2l/land_ice_segments/delta_time Dataset {1061/Inf}
+/gt2l/land_ice_segments/dem Group
+/gt2l/land_ice_segments/dem/dem_flag Dataset {1061/Inf}
+/gt2l/land_ice_segments/dem/dem_h Dataset {1061/Inf}
+/gt2l/land_ice_segments/dem/geoid_free2mean Dataset {1061/Inf}
+/gt2l/land_ice_segments/dem/geoid_h Dataset {1061/Inf}
+/gt2l/land_ice_segments/fit_statistics Group
+/gt2l/land_ice_segments/fit_statistics/dh_fit_dx Dataset {1061/Inf}
+/gt2l/land_ice_segments/fit_statistics/dh_fit_dx_sigma Dataset {1061/Inf}
+/gt2l/land_ice_segments/fit_statistics/dh_fit_dy Dataset {1061/Inf}
+/gt2l/land_ice_segments/fit_statistics/h_expected_rms Dataset {1061/Inf}
+/gt2l/land_ice_segments/fit_statistics/h_mean Dataset {1061/Inf}
+/gt2l/land_ice_segments/fit_statistics/h_rms_misfit Dataset {1061/Inf}
+/gt2l/land_ice_segments/fit_statistics/h_robust_sprd Dataset {1061/Inf}
+/gt2l/land_ice_segments/fit_statistics/n_fit_photons Dataset {1061/Inf}
+/gt2l/land_ice_segments/fit_statistics/n_seg_pulses Dataset {1061/Inf}
+/gt2l/land_ice_segments/fit_statistics/sigma_h_mean Dataset {1061/Inf}
+/gt2l/land_ice_segments/fit_statistics/signal_selection_source Dataset {1061/Inf}
+/gt2l/land_ice_segments/fit_statistics/signal_selection_source_status Dataset {1061/Inf}
+/gt2l/land_ice_segments/fit_statistics/snr Dataset {1061/Inf}
+/gt2l/land_ice_segments/fit_statistics/snr_significance Dataset {1061/Inf}
+/gt2l/land_ice_segments/fit_statistics/w_surface_window_final Dataset {1061/Inf}
+/gt2l/land_ice_segments/geophysical Group
+/gt2l/land_ice_segments/geophysical/bckgrd Dataset {1061/Inf}
+/gt2l/land_ice_segments/geophysical/bsnow_conf Dataset {1061/Inf}
+/gt2l/land_ice_segments/geophysical/bsnow_h Dataset {1061/Inf}
+/gt2l/land_ice_segments/geophysical/bsnow_od Dataset {1061/Inf}
+/gt2l/land_ice_segments/geophysical/cloud_flg_asr Dataset {1061/Inf}
+/gt2l/land_ice_segments/geophysical/cloud_flg_atm Dataset {1061/Inf}
+/gt2l/land_ice_segments/geophysical/dac Dataset {1061/Inf}
+/gt2l/land_ice_segments/geophysical/e_bckgrd Dataset {1061/Inf}
+/gt2l/land_ice_segments/geophysical/layer_flag Dataset {1061/Inf}
+/gt2l/land_ice_segments/geophysical/msw_flag Dataset {1061/Inf}
+/gt2l/land_ice_segments/geophysical/neutat_delay_total Dataset {1061/Inf}
+/gt2l/land_ice_segments/geophysical/r_eff Dataset {1061/Inf}
+/gt2l/land_ice_segments/geophysical/solar_azimuth Dataset {1061/Inf}
+/gt2l/land_ice_segments/geophysical/solar_elevation Dataset {1061/Inf}
+/gt2l/land_ice_segments/geophysical/tide_earth Dataset {1061/Inf}
+/gt2l/land_ice_segments/geophysical/tide_earth_free2mean Dataset {1061/Inf}
+/gt2l/land_ice_segments/geophysical/tide_equilibrium Dataset {1061/Inf}
+/gt2l/land_ice_segments/geophysical/tide_load Dataset {1061/Inf}
+/gt2l/land_ice_segments/geophysical/tide_ocean Dataset {1061/Inf}
+/gt2l/land_ice_segments/geophysical/tide_pole Dataset {1061/Inf}
+/gt2l/land_ice_segments/ground_track Group
+/gt2l/land_ice_segments/ground_track/ref_azimuth Dataset {1061/Inf}
+/gt2l/land_ice_segments/ground_track/ref_coelv Dataset {1061/Inf}
+/gt2l/land_ice_segments/ground_track/seg_azimuth Dataset {1061/Inf}
+/gt2l/land_ice_segments/ground_track/sigma_geo_at Dataset {1061/Inf}
+/gt2l/land_ice_segments/ground_track/sigma_geo_r Dataset {1061/Inf}
+/gt2l/land_ice_segments/ground_track/sigma_geo_xt Dataset {1061/Inf}
+/gt2l/land_ice_segments/ground_track/x_atc Dataset {1061/Inf}
+/gt2l/land_ice_segments/ground_track/y_atc Dataset {1061/Inf}
+/gt2l/land_ice_segments/h_li Dataset {1061/Inf}
+/gt2l/land_ice_segments/h_li_sigma Dataset {1061/Inf}
+/gt2l/land_ice_segments/latitude Dataset {1061/Inf}
+/gt2l/land_ice_segments/longitude Dataset {1061/Inf}
+/gt2l/land_ice_segments/segment_id Dataset {1061/Inf}
+/gt2l/land_ice_segments/sigma_geo_h Dataset {1061/Inf}
+/gt2l/residual_histogram Group
+/gt2l/residual_histogram/bckgrd_per_m Dataset {106/Inf}
+/gt2l/residual_histogram/bin_top_h Dataset {748}
+/gt2l/residual_histogram/count Dataset {106/Inf, 748}
+/gt2l/residual_histogram/delta_time Dataset {106/Inf}
+/gt2l/residual_histogram/ds_segment_id Dataset {10}
+/gt2l/residual_histogram/lat_mean Dataset {106/Inf}
+/gt2l/residual_histogram/lon_mean Dataset {106/Inf}
+/gt2l/residual_histogram/pulse_count Dataset {106/Inf}
+/gt2l/residual_histogram/segment_id_list Dataset {106/Inf, 10}
+/gt2l/residual_histogram/x_atc_mean Dataset {106/Inf}
+/gt2l/segment_quality    Group
+/gt2l/segment_quality/delta_time Dataset {1061/Inf}
+/gt2l/segment_quality/record_number Dataset {1061/Inf}
+/gt2l/segment_quality/reference_pt_lat Dataset {1061/Inf}
+/gt2l/segment_quality/reference_pt_lon Dataset {1061/Inf}
+/gt2l/segment_quality/segment_id Dataset {1061/Inf}
+/gt2l/segment_quality/signal_selection_source Dataset {1061/Inf}
+/gt2l/segment_quality/signal_selection_status Group
+/gt2l/segment_quality/signal_selection_status/signal_selection_status_all Dataset {1061/Inf}
+/gt2l/segment_quality/signal_selection_status/signal_selection_status_backup Dataset {1061/Inf}
+/gt2l/segment_quality/signal_selection_status/signal_selection_status_confident Dataset {1061/Inf}
+/gt2r                    Group
+/gt2r/land_ice_segments  Group
+/gt2r/land_ice_segments/atl06_quality_summary Dataset {1084/Inf}
+/gt2r/land_ice_segments/bias_correction Group
+/gt2r/land_ice_segments/bias_correction/fpb_mean_corr Dataset {1084/Inf}
+/gt2r/land_ice_segments/bias_correction/fpb_mean_corr_sigma Dataset {1084/Inf}
+/gt2r/land_ice_segments/bias_correction/fpb_med_corr Dataset {1084/Inf}
+/gt2r/land_ice_segments/bias_correction/fpb_med_corr_sigma Dataset {1084/Inf}
+/gt2r/land_ice_segments/bias_correction/fpb_n_corr Dataset {1084/Inf}
+/gt2r/land_ice_segments/bias_correction/med_r_fit Dataset {1084/Inf}
+/gt2r/land_ice_segments/bias_correction/tx_mean_corr Dataset {1084/Inf}
+/gt2r/land_ice_segments/bias_correction/tx_med_corr Dataset {1084/Inf}
+/gt2r/land_ice_segments/delta_time Dataset {1084/Inf}
+/gt2r/land_ice_segments/dem Group
+/gt2r/land_ice_segments/dem/dem_flag Dataset {1084/Inf}
+/gt2r/land_ice_segments/dem/dem_h Dataset {1084/Inf}
+/gt2r/land_ice_segments/dem/geoid_free2mean Dataset {1084/Inf}
+/gt2r/land_ice_segments/dem/geoid_h Dataset {1084/Inf}
+/gt2r/land_ice_segments/fit_statistics Group
+/gt2r/land_ice_segments/fit_statistics/dh_fit_dx Dataset {1084/Inf}
+/gt2r/land_ice_segments/fit_statistics/dh_fit_dx_sigma Dataset {1084/Inf}
+/gt2r/land_ice_segments/fit_statistics/dh_fit_dy Dataset {1084/Inf}
+/gt2r/land_ice_segments/fit_statistics/h_expected_rms Dataset {1084/Inf}
+/gt2r/land_ice_segments/fit_statistics/h_mean Dataset {1084/Inf}
+/gt2r/land_ice_segments/fit_statistics/h_rms_misfit Dataset {1084/Inf}
+/gt2r/land_ice_segments/fit_statistics/h_robust_sprd Dataset {1084/Inf}
+/gt2r/land_ice_segments/fit_statistics/n_fit_photons Dataset {1084/Inf}
+/gt2r/land_ice_segments/fit_statistics/n_seg_pulses Dataset {1084/Inf}
+/gt2r/land_ice_segments/fit_statistics/sigma_h_mean Dataset {1084/Inf}
+/gt2r/land_ice_segments/fit_statistics/signal_selection_source Dataset {1084/Inf}
+/gt2r/land_ice_segments/fit_statistics/signal_selection_source_status Dataset {1084/Inf}
+/gt2r/land_ice_segments/fit_statistics/snr Dataset {1084/Inf}
+/gt2r/land_ice_segments/fit_statistics/snr_significance Dataset {1084/Inf}
+/gt2r/land_ice_segments/fit_statistics/w_surface_window_final Dataset {1084/Inf}
+/gt2r/land_ice_segments/geophysical Group
+/gt2r/land_ice_segments/geophysical/bckgrd Dataset {1084/Inf}
+/gt2r/land_ice_segments/geophysical/bsnow_conf Dataset {1084/Inf}
+/gt2r/land_ice_segments/geophysical/bsnow_h Dataset {1084/Inf}
+/gt2r/land_ice_segments/geophysical/bsnow_od Dataset {1084/Inf}
+/gt2r/land_ice_segments/geophysical/cloud_flg_asr Dataset {1084/Inf}
+/gt2r/land_ice_segments/geophysical/cloud_flg_atm Dataset {1084/Inf}
+/gt2r/land_ice_segments/geophysical/dac Dataset {1084/Inf}
+/gt2r/land_ice_segments/geophysical/e_bckgrd Dataset {1084/Inf}
+/gt2r/land_ice_segments/geophysical/layer_flag Dataset {1084/Inf}
+/gt2r/land_ice_segments/geophysical/msw_flag Dataset {1084/Inf}
+/gt2r/land_ice_segments/geophysical/neutat_delay_total Dataset {1084/Inf}
+/gt2r/land_ice_segments/geophysical/r_eff Dataset {1084/Inf}
+/gt2r/land_ice_segments/geophysical/solar_azimuth Dataset {1084/Inf}
+/gt2r/land_ice_segments/geophysical/solar_elevation Dataset {1084/Inf}
+/gt2r/land_ice_segments/geophysical/tide_earth Dataset {1084/Inf}
+/gt2r/land_ice_segments/geophysical/tide_earth_free2mean Dataset {1084/Inf}
+/gt2r/land_ice_segments/geophysical/tide_equilibrium Dataset {1084/Inf}
+/gt2r/land_ice_segments/geophysical/tide_load Dataset {1084/Inf}
+/gt2r/land_ice_segments/geophysical/tide_ocean Dataset {1084/Inf}
+/gt2r/land_ice_segments/geophysical/tide_pole Dataset {1084/Inf}
+/gt2r/land_ice_segments/ground_track Group
+/gt2r/land_ice_segments/ground_track/ref_azimuth Dataset {1084/Inf}
+/gt2r/land_ice_segments/ground_track/ref_coelv Dataset {1084/Inf}
+/gt2r/land_ice_segments/ground_track/seg_azimuth Dataset {1084/Inf}
+/gt2r/land_ice_segments/ground_track/sigma_geo_at Dataset {1084/Inf}
+/gt2r/land_ice_segments/ground_track/sigma_geo_r Dataset {1084/Inf}
+/gt2r/land_ice_segments/ground_track/sigma_geo_xt Dataset {1084/Inf}
+/gt2r/land_ice_segments/ground_track/x_atc Dataset {1084/Inf}
+/gt2r/land_ice_segments/ground_track/y_atc Dataset {1084/Inf}
+/gt2r/land_ice_segments/h_li Dataset {1084/Inf}
+/gt2r/land_ice_segments/h_li_sigma Dataset {1084/Inf}
+/gt2r/land_ice_segments/latitude Dataset {1084/Inf}
+/gt2r/land_ice_segments/longitude Dataset {1084/Inf}
+/gt2r/land_ice_segments/segment_id Dataset {1084/Inf}
+/gt2r/land_ice_segments/sigma_geo_h Dataset {1084/Inf}
+/gt2r/residual_histogram Group
+/gt2r/residual_histogram/bckgrd_per_m Dataset {108/Inf}
+/gt2r/residual_histogram/bin_top_h Dataset {748}
+/gt2r/residual_histogram/count Dataset {108/Inf, 748}
+/gt2r/residual_histogram/delta_time Dataset {108/Inf}
+/gt2r/residual_histogram/ds_segment_id Dataset {10}
+/gt2r/residual_histogram/lat_mean Dataset {108/Inf}
+/gt2r/residual_histogram/lon_mean Dataset {108/Inf}
+/gt2r/residual_histogram/pulse_count Dataset {108/Inf}
+/gt2r/residual_histogram/segment_id_list Dataset {108/Inf, 10}
+/gt2r/residual_histogram/x_atc_mean Dataset {108/Inf}
+/gt2r/segment_quality    Group
+/gt2r/segment_quality/delta_time Dataset {1084/Inf}
+/gt2r/segment_quality/record_number Dataset {1084/Inf}
+/gt2r/segment_quality/reference_pt_lat Dataset {1084/Inf}
+/gt2r/segment_quality/reference_pt_lon Dataset {1084/Inf}
+/gt2r/segment_quality/segment_id Dataset {1084/Inf}
+/gt2r/segment_quality/signal_selection_source Dataset {1084/Inf}
+/gt2r/segment_quality/signal_selection_status Group
+/gt2r/segment_quality/signal_selection_status/signal_selection_status_all Dataset {1084/Inf}
+/gt2r/segment_quality/signal_selection_status/signal_selection_status_backup Dataset {1084/Inf}
+/gt2r/segment_quality/signal_selection_status/signal_selection_status_confident Dataset {1084/Inf}
+/gt3l                    Group
+/gt3l/land_ice_segments  Group
+/gt3l/land_ice_segments/atl06_quality_summary Dataset {1412/Inf}
+/gt3l/land_ice_segments/bias_correction Group
+/gt3l/land_ice_segments/bias_correction/fpb_mean_corr Dataset {1412/Inf}
+/gt3l/land_ice_segments/bias_correction/fpb_mean_corr_sigma Dataset {1412/Inf}
+/gt3l/land_ice_segments/bias_correction/fpb_med_corr Dataset {1412/Inf}
+/gt3l/land_ice_segments/bias_correction/fpb_med_corr_sigma Dataset {1412/Inf}
+/gt3l/land_ice_segments/bias_correction/fpb_n_corr Dataset {1412/Inf}
+/gt3l/land_ice_segments/bias_correction/med_r_fit Dataset {1412/Inf}
+/gt3l/land_ice_segments/bias_correction/tx_mean_corr Dataset {1412/Inf}
+/gt3l/land_ice_segments/bias_correction/tx_med_corr Dataset {1412/Inf}
+/gt3l/land_ice_segments/delta_time Dataset {1412/Inf}
+/gt3l/land_ice_segments/dem Group
+/gt3l/land_ice_segments/dem/dem_flag Dataset {1412/Inf}
+/gt3l/land_ice_segments/dem/dem_h Dataset {1412/Inf}
+/gt3l/land_ice_segments/dem/geoid_free2mean Dataset {1412/Inf}
+/gt3l/land_ice_segments/dem/geoid_h Dataset {1412/Inf}
+/gt3l/land_ice_segments/fit_statistics Group
+/gt3l/land_ice_segments/fit_statistics/dh_fit_dx Dataset {1412/Inf}
+/gt3l/land_ice_segments/fit_statistics/dh_fit_dx_sigma Dataset {1412/Inf}
+/gt3l/land_ice_segments/fit_statistics/dh_fit_dy Dataset {1412/Inf}
+/gt3l/land_ice_segments/fit_statistics/h_expected_rms Dataset {1412/Inf}
+/gt3l/land_ice_segments/fit_statistics/h_mean Dataset {1412/Inf}
+/gt3l/land_ice_segments/fit_statistics/h_rms_misfit Dataset {1412/Inf}
+/gt3l/land_ice_segments/fit_statistics/h_robust_sprd Dataset {1412/Inf}
+/gt3l/land_ice_segments/fit_statistics/n_fit_photons Dataset {1412/Inf}
+/gt3l/land_ice_segments/fit_statistics/n_seg_pulses Dataset {1412/Inf}
+/gt3l/land_ice_segments/fit_statistics/sigma_h_mean Dataset {1412/Inf}
+/gt3l/land_ice_segments/fit_statistics/signal_selection_source Dataset {1412/Inf}
+/gt3l/land_ice_segments/fit_statistics/signal_selection_source_status Dataset {1412/Inf}
+/gt3l/land_ice_segments/fit_statistics/snr Dataset {1412/Inf}
+/gt3l/land_ice_segments/fit_statistics/snr_significance Dataset {1412/Inf}
+/gt3l/land_ice_segments/fit_statistics/w_surface_window_final Dataset {1412/Inf}
+/gt3l/land_ice_segments/geophysical Group
+/gt3l/land_ice_segments/geophysical/bckgrd Dataset {1412/Inf}
+/gt3l/land_ice_segments/geophysical/bsnow_conf Dataset {1412/Inf}
+/gt3l/land_ice_segments/geophysical/bsnow_h Dataset {1412/Inf}
+/gt3l/land_ice_segments/geophysical/bsnow_od Dataset {1412/Inf}
+/gt3l/land_ice_segments/geophysical/cloud_flg_asr Dataset {1412/Inf}
+/gt3l/land_ice_segments/geophysical/cloud_flg_atm Dataset {1412/Inf}
+/gt3l/land_ice_segments/geophysical/dac Dataset {1412/Inf}
+/gt3l/land_ice_segments/geophysical/e_bckgrd Dataset {1412/Inf}
+/gt3l/land_ice_segments/geophysical/layer_flag Dataset {1412/Inf}
+/gt3l/land_ice_segments/geophysical/msw_flag Dataset {1412/Inf}
+/gt3l/land_ice_segments/geophysical/neutat_delay_total Dataset {1412/Inf}
+/gt3l/land_ice_segments/geophysical/r_eff Dataset {1412/Inf}
+/gt3l/land_ice_segments/geophysical/solar_azimuth Dataset {1412/Inf}
+/gt3l/land_ice_segments/geophysical/solar_elevation Dataset {1412/Inf}
+/gt3l/land_ice_segments/geophysical/tide_earth Dataset {1412/Inf}
+/gt3l/land_ice_segments/geophysical/tide_earth_free2mean Dataset {1412/Inf}
+/gt3l/land_ice_segments/geophysical/tide_equilibrium Dataset {1412/Inf}
+/gt3l/land_ice_segments/geophysical/tide_load Dataset {1412/Inf}
+/gt3l/land_ice_segments/geophysical/tide_ocean Dataset {1412/Inf}
+/gt3l/land_ice_segments/geophysical/tide_pole Dataset {1412/Inf}
+/gt3l/land_ice_segments/ground_track Group
+/gt3l/land_ice_segments/ground_track/ref_azimuth Dataset {1412/Inf}
+/gt3l/land_ice_segments/ground_track/ref_coelv Dataset {1412/Inf}
+/gt3l/land_ice_segments/ground_track/seg_azimuth Dataset {1412/Inf}
+/gt3l/land_ice_segments/ground_track/sigma_geo_at Dataset {1412/Inf}
+/gt3l/land_ice_segments/ground_track/sigma_geo_r Dataset {1412/Inf}
+/gt3l/land_ice_segments/ground_track/sigma_geo_xt Dataset {1412/Inf}
+/gt3l/land_ice_segments/ground_track/x_atc Dataset {1412/Inf}
+/gt3l/land_ice_segments/ground_track/y_atc Dataset {1412/Inf}
+/gt3l/land_ice_segments/h_li Dataset {1412/Inf}
+/gt3l/land_ice_segments/h_li_sigma Dataset {1412/Inf}
+/gt3l/land_ice_segments/latitude Dataset {1412/Inf}
+/gt3l/land_ice_segments/longitude Dataset {1412/Inf}
+/gt3l/land_ice_segments/segment_id Dataset {1412/Inf}
+/gt3l/land_ice_segments/sigma_geo_h Dataset {1412/Inf}
+/gt3l/residual_histogram Group
+/gt3l/residual_histogram/bckgrd_per_m Dataset {142/Inf}
+/gt3l/residual_histogram/bin_top_h Dataset {748}
+/gt3l/residual_histogram/count Dataset {142/Inf, 748}
+/gt3l/residual_histogram/delta_time Dataset {142/Inf}
+/gt3l/residual_histogram/ds_segment_id Dataset {10}
+/gt3l/residual_histogram/lat_mean Dataset {142/Inf}
+/gt3l/residual_histogram/lon_mean Dataset {142/Inf}
+/gt3l/residual_histogram/pulse_count Dataset {142/Inf}
+/gt3l/residual_histogram/segment_id_list Dataset {142/Inf, 10}
+/gt3l/residual_histogram/x_atc_mean Dataset {142/Inf}
+/gt3l/segment_quality    Group
+/gt3l/segment_quality/delta_time Dataset {1412/Inf}
+/gt3l/segment_quality/record_number Dataset {1412/Inf}
+/gt3l/segment_quality/reference_pt_lat Dataset {1412/Inf}
+/gt3l/segment_quality/reference_pt_lon Dataset {1412/Inf}
+/gt3l/segment_quality/segment_id Dataset {1412/Inf}
+/gt3l/segment_quality/signal_selection_source Dataset {1412/Inf}
+/gt3l/segment_quality/signal_selection_status Group
+/gt3l/segment_quality/signal_selection_status/signal_selection_status_all Dataset {1412/Inf}
+/gt3l/segment_quality/signal_selection_status/signal_selection_status_backup Dataset {1412/Inf}
+/gt3l/segment_quality/signal_selection_status/signal_selection_status_confident Dataset {1412/Inf}
+/gt3r                    Group
+/gt3r/land_ice_segments  Group
+/gt3r/land_ice_segments/atl06_quality_summary Dataset {1412/Inf}
+/gt3r/land_ice_segments/bias_correction Group
+/gt3r/land_ice_segments/bias_correction/fpb_mean_corr Dataset {1412/Inf}
+/gt3r/land_ice_segments/bias_correction/fpb_mean_corr_sigma Dataset {1412/Inf}
+/gt3r/land_ice_segments/bias_correction/fpb_med_corr Dataset {1412/Inf}
+/gt3r/land_ice_segments/bias_correction/fpb_med_corr_sigma Dataset {1412/Inf}
+/gt3r/land_ice_segments/bias_correction/fpb_n_corr Dataset {1412/Inf}
+/gt3r/land_ice_segments/bias_correction/med_r_fit Dataset {1412/Inf}
+/gt3r/land_ice_segments/bias_correction/tx_mean_corr Dataset {1412/Inf}
+/gt3r/land_ice_segments/bias_correction/tx_med_corr Dataset {1412/Inf}
+/gt3r/land_ice_segments/delta_time Dataset {1412/Inf}
+/gt3r/land_ice_segments/dem Group
+/gt3r/land_ice_segments/dem/dem_flag Dataset {1412/Inf}
+/gt3r/land_ice_segments/dem/dem_h Dataset {1412/Inf}
+/gt3r/land_ice_segments/dem/geoid_free2mean Dataset {1412/Inf}
+/gt3r/land_ice_segments/dem/geoid_h Dataset {1412/Inf}
+/gt3r/land_ice_segments/fit_statistics Group
+/gt3r/land_ice_segments/fit_statistics/dh_fit_dx Dataset {1412/Inf}
+/gt3r/land_ice_segments/fit_statistics/dh_fit_dx_sigma Dataset {1412/Inf}
+/gt3r/land_ice_segments/fit_statistics/dh_fit_dy Dataset {1412/Inf}
+/gt3r/land_ice_segments/fit_statistics/h_expected_rms Dataset {1412/Inf}
+/gt3r/land_ice_segments/fit_statistics/h_mean Dataset {1412/Inf}
+/gt3r/land_ice_segments/fit_statistics/h_rms_misfit Dataset {1412/Inf}
+/gt3r/land_ice_segments/fit_statistics/h_robust_sprd Dataset {1412/Inf}
+/gt3r/land_ice_segments/fit_statistics/n_fit_photons Dataset {1412/Inf}
+/gt3r/land_ice_segments/fit_statistics/n_seg_pulses Dataset {1412/Inf}
+/gt3r/land_ice_segments/fit_statistics/sigma_h_mean Dataset {1412/Inf}
+/gt3r/land_ice_segments/fit_statistics/signal_selection_source Dataset {1412/Inf}
+/gt3r/land_ice_segments/fit_statistics/signal_selection_source_status Dataset {1412/Inf}
+/gt3r/land_ice_segments/fit_statistics/snr Dataset {1412/Inf}
+/gt3r/land_ice_segments/fit_statistics/snr_significance Dataset {1412/Inf}
+/gt3r/land_ice_segments/fit_statistics/w_surface_window_final Dataset {1412/Inf}
+/gt3r/land_ice_segments/geophysical Group
+/gt3r/land_ice_segments/geophysical/bckgrd Dataset {1412/Inf}
+/gt3r/land_ice_segments/geophysical/bsnow_conf Dataset {1412/Inf}
+/gt3r/land_ice_segments/geophysical/bsnow_h Dataset {1412/Inf}
+/gt3r/land_ice_segments/geophysical/bsnow_od Dataset {1412/Inf}
+/gt3r/land_ice_segments/geophysical/cloud_flg_asr Dataset {1412/Inf}
+/gt3r/land_ice_segments/geophysical/cloud_flg_atm Dataset {1412/Inf}
+/gt3r/land_ice_segments/geophysical/dac Dataset {1412/Inf}
+/gt3r/land_ice_segments/geophysical/e_bckgrd Dataset {1412/Inf}
+/gt3r/land_ice_segments/geophysical/layer_flag Dataset {1412/Inf}
+/gt3r/land_ice_segments/geophysical/msw_flag Dataset {1412/Inf}
+/gt3r/land_ice_segments/geophysical/neutat_delay_total Dataset {1412/Inf}
+/gt3r/land_ice_segments/geophysical/r_eff Dataset {1412/Inf}
+/gt3r/land_ice_segments/geophysical/solar_azimuth Dataset {1412/Inf}
+/gt3r/land_ice_segments/geophysical/solar_elevation Dataset {1412/Inf}
+/gt3r/land_ice_segments/geophysical/tide_earth Dataset {1412/Inf}
+/gt3r/land_ice_segments/geophysical/tide_earth_free2mean Dataset {1412/Inf}
+/gt3r/land_ice_segments/geophysical/tide_equilibrium Dataset {1412/Inf}
+/gt3r/land_ice_segments/geophysical/tide_load Dataset {1412/Inf}
+/gt3r/land_ice_segments/geophysical/tide_ocean Dataset {1412/Inf}
+/gt3r/land_ice_segments/geophysical/tide_pole Dataset {1412/Inf}
+/gt3r/land_ice_segments/ground_track Group
+/gt3r/land_ice_segments/ground_track/ref_azimuth Dataset {1412/Inf}
+/gt3r/land_ice_segments/ground_track/ref_coelv Dataset {1412/Inf}
+/gt3r/land_ice_segments/ground_track/seg_azimuth Dataset {1412/Inf}
+/gt3r/land_ice_segments/ground_track/sigma_geo_at Dataset {1412/Inf}
+/gt3r/land_ice_segments/ground_track/sigma_geo_r Dataset {1412/Inf}
+/gt3r/land_ice_segments/ground_track/sigma_geo_xt Dataset {1412/Inf}
+/gt3r/land_ice_segments/ground_track/x_atc Dataset {1412/Inf}
+/gt3r/land_ice_segments/ground_track/y_atc Dataset {1412/Inf}
+/gt3r/land_ice_segments/h_li Dataset {1412/Inf}
+/gt3r/land_ice_segments/h_li_sigma Dataset {1412/Inf}
+/gt3r/land_ice_segments/latitude Dataset {1412/Inf}
+/gt3r/land_ice_segments/longitude Dataset {1412/Inf}
+/gt3r/land_ice_segments/segment_id Dataset {1412/Inf}
+/gt3r/land_ice_segments/sigma_geo_h Dataset {1412/Inf}
+/gt3r/residual_histogram Group
+/gt3r/residual_histogram/bckgrd_per_m Dataset {141/Inf}
+/gt3r/residual_histogram/bin_top_h Dataset {748}
+/gt3r/residual_histogram/count Dataset {141/Inf, 748}
+/gt3r/residual_histogram/delta_time Dataset {141/Inf}
+/gt3r/residual_histogram/ds_segment_id Dataset {10}
+/gt3r/residual_histogram/lat_mean Dataset {141/Inf}
+/gt3r/residual_histogram/lon_mean Dataset {141/Inf}
+/gt3r/residual_histogram/pulse_count Dataset {141/Inf}
+/gt3r/residual_histogram/segment_id_list Dataset {141/Inf, 10}
+/gt3r/residual_histogram/x_atc_mean Dataset {141/Inf}
+/gt3r/segment_quality    Group
+/gt3r/segment_quality/delta_time Dataset {1412/Inf}
+/gt3r/segment_quality/record_number Dataset {1412/Inf}
+/gt3r/segment_quality/reference_pt_lat Dataset {1412/Inf}
+/gt3r/segment_quality/reference_pt_lon Dataset {1412/Inf}
+/gt3r/segment_quality/segment_id Dataset {1412/Inf}
+/gt3r/segment_quality/signal_selection_source Dataset {1412/Inf}
+/gt3r/segment_quality/signal_selection_status Group
+/gt3r/segment_quality/signal_selection_status/signal_selection_status_all Dataset {1412/Inf}
+/gt3r/segment_quality/signal_selection_status/signal_selection_status_backup Dataset {1412/Inf}
+/gt3r/segment_quality/signal_selection_status/signal_selection_status_confident Dataset {1412/Inf}
+/orbit_info              Group
+/orbit_info/bounding_polygon_lat1 Dataset {25/Inf}
+/orbit_info/bounding_polygon_lon1 Dataset {25/Inf}
+/orbit_info/crossing_time Dataset {1/Inf}
+/orbit_info/cycle_number Dataset {1/Inf}
+/orbit_info/lan          Dataset {1/Inf}
+/orbit_info/orbit_number Dataset {1/Inf}
+/orbit_info/rgt          Dataset {1/Inf}
+/orbit_info/sc_orient    Dataset {1/Inf}
+/orbit_info/sc_orient_time Dataset {1/Inf}
+/quality_assessment      Group
+/quality_assessment/gt1l Group
+/quality_assessment/gt1l/delta_time Dataset {3686/Inf}
+/quality_assessment/gt1l/lat_mean Dataset {3686/Inf}
+/quality_assessment/gt1l/lon_mean Dataset {3686/Inf}
+/quality_assessment/gt1l/signal_selection_source_fraction_0 Dataset {3686/Inf}
+/quality_assessment/gt1l/signal_selection_source_fraction_1 Dataset {3686/Inf}
+/quality_assessment/gt1l/signal_selection_source_fraction_2 Dataset {3686/Inf}
+/quality_assessment/gt1l/signal_selection_source_fraction_3 Dataset {3686/Inf}
+/quality_assessment/gt1r Group
+/quality_assessment/gt1r/delta_time Dataset {3686/Inf}
+/quality_assessment/gt1r/lat_mean Dataset {3686/Inf}
+/quality_assessment/gt1r/lon_mean Dataset {3686/Inf}
+/quality_assessment/gt1r/signal_selection_source_fraction_0 Dataset {3686/Inf}
+/quality_assessment/gt1r/signal_selection_source_fraction_1 Dataset {3686/Inf}
+/quality_assessment/gt1r/signal_selection_source_fraction_2 Dataset {3686/Inf}
+/quality_assessment/gt1r/signal_selection_source_fraction_3 Dataset {3686/Inf}
+/quality_assessment/gt2l Group
+/quality_assessment/gt2l/delta_time Dataset {3692/Inf}
+/quality_assessment/gt2l/lat_mean Dataset {3692/Inf}
+/quality_assessment/gt2l/lon_mean Dataset {3692/Inf}
+/quality_assessment/gt2l/signal_selection_source_fraction_0 Dataset {3692/Inf}
+/quality_assessment/gt2l/signal_selection_source_fraction_1 Dataset {3692/Inf}
+/quality_assessment/gt2l/signal_selection_source_fraction_2 Dataset {3692/Inf}
+/quality_assessment/gt2l/signal_selection_source_fraction_3 Dataset {3692/Inf}
+/quality_assessment/gt2r Group
+/quality_assessment/gt2r/delta_time Dataset {3692/Inf}
+/quality_assessment/gt2r/lat_mean Dataset {3692/Inf}
+/quality_assessment/gt2r/lon_mean Dataset {3692/Inf}
+/quality_assessment/gt2r/signal_selection_source_fraction_0 Dataset {3692/Inf}
+/quality_assessment/gt2r/signal_selection_source_fraction_1 Dataset {3692/Inf}
+/quality_assessment/gt2r/signal_selection_source_fraction_2 Dataset {3692/Inf}
+/quality_assessment/gt2r/signal_selection_source_fraction_3 Dataset {3692/Inf}
+/quality_assessment/gt3l Group
+/quality_assessment/gt3l/delta_time Dataset {3815/Inf}
+/quality_assessment/gt3l/lat_mean Dataset {3815/Inf}
+/quality_assessment/gt3l/lon_mean Dataset {3815/Inf}
+/quality_assessment/gt3l/signal_selection_source_fraction_0 Dataset {3815/Inf}
+/quality_assessment/gt3l/signal_selection_source_fraction_1 Dataset {3815/Inf}
+/quality_assessment/gt3l/signal_selection_source_fraction_2 Dataset {3815/Inf}
+/quality_assessment/gt3l/signal_selection_source_fraction_3 Dataset {3815/Inf}
+/quality_assessment/gt3r Group
+/quality_assessment/gt3r/delta_time Dataset {3815/Inf}
+/quality_assessment/gt3r/lat_mean Dataset {3815/Inf}
+/quality_assessment/gt3r/lon_mean Dataset {3815/Inf}
+/quality_assessment/gt3r/signal_selection_source_fraction_0 Dataset {3815/Inf}
+/quality_assessment/gt3r/signal_selection_source_fraction_1 Dataset {3815/Inf}
+/quality_assessment/gt3r/signal_selection_source_fraction_2 Dataset {3815/Inf}
+/quality_assessment/gt3r/signal_selection_source_fraction_3 Dataset {3815/Inf}
+/quality_assessment/qa_granule_fail_reason Dataset {1}
+/quality_assessment/qa_granule_pass_fail Dataset {1}
