@@ -11,6 +11,8 @@ project:
 site:
   template: book-theme
   title: "Data Processing Examples"
-  # options:
+  options:
+      logo_text = "D"
   #   favicon: favicon.ico
   #   logo: site_logo.png
+
