@@ -16,9 +16,11 @@ dependencies = [
     "numpy>=2.3.4",
     "obspy>=1.4.2",
     "rasterio>=1.4.3",
-    "rpy2>=3.6.4",
     "scikit-learn>=1.7.2",
     "sliderule>=4.20.0",
     "timescale>=0.1.0",
     "xarray[complete,io]>=2025.10.1",
 ]
+
+[project.optional-dependencies]
+r = ["rpy2>=3.6.4"]

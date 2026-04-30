@@ -18,7 +18,7 @@ jobs:
         uses: astral-sh/setup-uv@v1
 
       - name: Install dependencies
-        run: uv sync
+        run: uv sync --no-group r
 
       - name: Build the book
         run: uv run jupyter-book build
