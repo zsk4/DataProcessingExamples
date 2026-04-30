@@ -12,7 +12,7 @@ site:
   template: book-theme
   title: "Data Processing Examples"
   options:
-      logo_text = "D"
+      logo_text: "D"
   #   favicon: favicon.ico
   #   logo: site_logo.png
 
