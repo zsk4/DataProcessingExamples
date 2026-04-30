@@ -791,11 +791,15 @@ dependencies = [
     { name = "numpy" },
     { name = "obspy" },
     { name = "rasterio" },
-    { name = "rpy2" },
     { name = "scikit-learn" },
     { name = "sliderule" },
     { name = "timescale" },
     { name = "xarray", extra = ["complete", "io"] },
+]
+
+[package.optional-dependencies]
+r = [
+    { name = "rpy2" },
 ]
 
 [package.metadata]
@@ -811,12 +815,13 @@ requires-dist = [
     { name = "numpy", specifier = ">=2.3.4" },
     { name = "obspy", specifier = ">=1.4.2" },
     { name = "rasterio", specifier = ">=1.4.3" },
-    { name = "rpy2", specifier = ">=3.6.4" },
+    { name = "rpy2", marker = "extra == 'r'", specifier = ">=3.6.4" },
     { name = "scikit-learn", specifier = ">=1.7.2" },
     { name = "sliderule", specifier = ">=4.20.0" },
     { name = "timescale", specifier = ">=0.1.0" },
     { name = "xarray", extras = ["complete", "io"], specifier = ">=2025.10.1" },
 ]
+provides-extras = ["r"]
 
 [[package]]
 name = "datashader"
